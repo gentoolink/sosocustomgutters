@@ -1,0 +1,121 @@
+/* Custom CSS for an earthy, professional look */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #4a4a4a; /* Dark gray for text */
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.hero {
+    background: url('../images/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #556b2f; /* Olive green */
+    border-color: #556b2f;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6b8e23; /* Lighter olive green */
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #6c757d;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-item .icon {
+    font-size: 3rem;
+    color: #8fbc8f; /* Dark sea green */
+    margin-bottom: 20px;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.testimonial {
+    background-color: #f5f5dc; /* Beige */
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial .author {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact-form {
+    background-color: #f5f5dc; /* Beige */
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #382e2e; /* Dark brown */
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #8fbc8f; /* Dark sea green */
+}
