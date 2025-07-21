@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-brand img {
-    max-height: 40px;
+    max-height: 80px;
 }
 
 .hero {
@@ -137,4 +137,9 @@ body {
 
 .footer a:hover {
     color: #007bff; /* Lighter Blue on hover */
+}
+
+.footer-logo {
+    max-height: 40px; /* Adjusted size */
+    margin-bottom: 20px;
 }
