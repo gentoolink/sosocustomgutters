@@ -28,8 +28,13 @@ body {
 }
 
 .hero p {
-    font-size: 1.25rem;
+    font-size: 1.5rem; /* Increased font size for better readability */
     margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow for contrast */
+}
+
+.hero .lead {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added text shadow for contrast */
 }
 
 .btn-primary {
