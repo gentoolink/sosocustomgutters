@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.soscustomgutters.com/sitemap.xml
+Sitemap: https://soscustomgutters.com/sitemap.xml
