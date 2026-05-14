@@ -143,3 +143,64 @@ body {
     max-height: 40px; /* Adjusted size */
     margin-bottom: 20px;
 }
+
+/* Floating Action Buttons (FAB) */
+.fab-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 1050;
+}
+
+.fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.fab-call {
+    background-color: #e63946; /* Red */
+}
+
+.fab-call:hover {
+    background-color: #d62828;
+}
+
+.fab-sms {
+    background-color: #004f9f; /* Deep Blue */
+}
+
+.fab-sms:hover {
+    background-color: #003a7a;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+    .fab-container {
+        bottom: 16px;
+        right: 16px;
+        gap: 10px;
+    }
+    .fab {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
